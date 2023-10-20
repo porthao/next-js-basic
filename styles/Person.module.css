@@ -1,0 +1,26 @@
+.person-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-list.person-card {
+    color: #616161;
+    text-decoration: none;
+}
+
+.person-card {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.person-card h4 {
+    margin: 0px;
+}
+
+.person-card span{
+    font-style: italic;
+}
+
+.person-details{
+    display: flex;
+}
